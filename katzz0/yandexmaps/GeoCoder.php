@@ -65,8 +65,7 @@ class GeoCoder extends Component
      */
     private static function prepareRequestUrl()
     {
-        $protocol = self::$protocol ?: (\Yii::$app->getRequest()->isSecureConnection ? 'https' : 'http');
-        return $protocol.'://'.self::$uri.'/'.self::$version.'/?';
+        return 'https://'.self::$uri.'/'.self::$version.'/?';
     }
 
     /**
