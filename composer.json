@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-0": {
-            "katzz0\\yandexmaps\\": "src"
+            "tol17\\yandexmaps\\": "src"
         }
     }
 }

@@ -1,5 +1,5 @@
 <?php
-namespace katzz0\yandexmaps;
+namespace tol17\yandexmaps;
 
 use yii\base\Component;
 

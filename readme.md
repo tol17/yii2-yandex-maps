@@ -8,7 +8,8 @@ by [katzz0](https://github.com/katzz0 "katzz0")
 * * *
 
 Add autobounds for multiple objects.
-CURLOPT_SSL_VERIFYPEER => false,
+CURLOPT_SSL_VERIFYPEER => false.
+Change namespace to prevent conflict with https://packagist.org/packages/katzz0/yii2-yandex-maps
 
 ## Components ##
 
@@ -29,12 +30,12 @@ Attach component to application (e.g. edit config/main.php):
 ```php
 'components' => [
 	'yandexMapsApi' => [
-		'class' => 'mirocow\yandexmaps\Api',
+		'class' => 'tol17\yandexmaps\Api',
 	]
  ],
 ```
 
-### katzz0\yandexmaps\Map ###
+### tol17\yandexmaps\Map ###
 
 Map instance.
 
@@ -62,7 +63,7 @@ $map = new Map('yandex_map', [
 );
 ```
 
-### katzz0\yandexmaps\Canvas ###
+### tol17\yandexmaps\Canvas ###
 
 This is widget which render html tag for your map.
 
@@ -70,7 +71,7 @@ __Usage__
 
 Simple add widget to view:
 ```php
-use katzz0\yandexmaps\Canvas as YandexMaps;
+use tol17\yandexmaps\Canvas as YandexMaps;
 
 <?= YandexMaps::widget([
     'htmlOptions' => [

@@ -1,8 +1,8 @@
 <?php
-namespace katzz0\yandexmaps\objects;
+namespace tol17\yandexmaps\objects;
 
-use katzz0\yandexmaps\Geometry;
-use katzz0\yandexmaps\GeoObject;
+use tol17\yandexmaps\Geometry;
+use tol17\yandexmaps\GeoObject;
 use yii\helpers\Json;
 
 /**

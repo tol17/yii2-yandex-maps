@@ -1,10 +1,10 @@
 <?php
-namespace katzz0\yandexmaps;
+namespace tol17\yandexmaps;
 
 use yii\base\Exception;
 use yii\helpers\Json;
-use katzz0\yandexmaps\Interfaces\GeoObjectCollection;
-use katzz0\yandexmaps\Interfaces\EventAggregate;
+use tol17\yandexmaps\Interfaces\GeoObjectCollection;
+use tol17\yandexmaps\Interfaces\EventAggregate;
 
 /**
  * Class Map

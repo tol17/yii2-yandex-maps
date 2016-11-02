@@ -1,7 +1,7 @@
 <?php
-namespace katzz0\yandexmaps\Interfaces;
+namespace tol17\yandexmaps\Interfaces;
 
-use katzz0\yandexmaps\objects\Point;
+use tol17\yandexmaps\objects\Point;
 
 /**
  * interface GeoObject
