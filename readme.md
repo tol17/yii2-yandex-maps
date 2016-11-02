@@ -3,9 +3,12 @@
 * * *
 
 This repo is the fork of the [yii2-yandex-maps](https://github.com/katzz0/yii2-yandex-maps "yii2-yandex-maps")
-by [Mirocow](https://github.com/Mirocow "Mirocow")
+by [katzz0](https://github.com/katzz0 "katzz0")
 
 * * *
+
+Add autobounds for multiple objects.
+CURLOPT_SSL_VERIFYPEER => false,
 
 ## Components ##
 
@@ -15,11 +18,6 @@ by [Mirocow](https://github.com/Mirocow "Mirocow")
 - `katzz0\yandexmaps\JavaScript`
 - `katzz0\yandexmaps\Placemark`
 - `katzz0\yandexmaps\Polyline`
-- TODO: [Geo XML](http://api.yandex.ru/maps/doc/jsapi/2.1/dg/concepts/geoxml.xml)
-- TODO: [GeoObject](http://api.yandex.ru/maps/doc/jsapi/2.1/ref/reference/GeoObject.xml)
-- TODO: [Balloon](http://api.yandex.ru/maps/doc/jsapi/2.1/ref/reference/Balloon.xml)
-- TODO: [Hint](http://api.yandex.ru/maps/doc/jsapi/2.1/ref/reference/Hint.xml)
-- TODO: [Clusterer](http://api.yandex.ru/maps/doc/jsapi/2.1/ref/reference/Clusterer.xml)
 
 ### katzz0\yandexmaps\Api ###
 
