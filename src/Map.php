@@ -268,6 +268,7 @@ class Map extends JavaScript implements GeoObjectCollection, EventAggregate
         if (!empty($geoObjects)) {
             $js[] = "{$this->getId()}.geoObjects" . implode($geoObjects) . ';';
         }
+        $js[] = "{$this->getId()}.setBounds({$this->getId()}.geoObjects.getBounds());";
 
         return implode(";\n\t", $js);
     }

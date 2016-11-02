@@ -2,7 +2,7 @@
 
 * * *
 
-This repo is the fork of the [yii2-yandex-maps](https://github.com/Mirocow/yii2-yandex-maps "yii2-yandex-maps")
+This repo is the fork of the [yii2-yandex-maps](https://github.com/katzz0/yii2-yandex-maps "yii2-yandex-maps")
 by [Mirocow](https://github.com/Mirocow "Mirocow")
 
 * * *

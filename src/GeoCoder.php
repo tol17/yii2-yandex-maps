@@ -35,7 +35,9 @@ class GeoCoder extends Component
         CURLOPT_CONNECTTIMEOUT => 10,
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_TIMEOUT => 60,
-        CURLOPT_USERAGENT => 'yii2-yandex-maps'
+        CURLOPT_USERAGENT => 'yii2-yandex-maps',
+        //CURLOPT_SSLVERSION => 3,
+        CURLOPT_SSL_VERIFYPEER => false,
     ];
 
     /**
